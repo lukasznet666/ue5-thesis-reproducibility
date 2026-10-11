@@ -1,0 +1,15 @@
+.gitignore
+CITATION.cff
+FILELIST.txt
+LICENSE_NOTICE.md
+README.en.md
+README.md
+configs/common_settings.txt
+configs/test_variants.csv
+configs/wpo_high_settings.txt
+data/reference/results_summary.csv
+docs/analysis_method.md
+docs/limitations.md
+docs/measurement_protocol.md
+docs/publication_scope.md
+docs/reproducibility_scope.md

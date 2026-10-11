@@ -1,0 +1,11 @@
+# Intensywny wariant WPO — środowisko 2
+
+Evaluate World Position Offset = ON
+
+Wind Strength = 8.0
+Wind Speed = 2.0
+Wind Noise = 5.0
+Wind Tiling = 0.5
+
+Wariant został dobrany jako scenariusz obciążeniowy: deformacja miała być wyraźna,
+ale obraz nadal miał zachowywać poprawność wizualną.

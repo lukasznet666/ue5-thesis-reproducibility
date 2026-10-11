@@ -1,0 +1,9 @@
+﻿Kod;Środowisko;Technologia;Wariant;Konfiguracja
+S1-L0;Środowisko 1;Lumen;Static lighting;"Oświetlenie statyczne z uprzednio wygenerowanymi danymi; globalna metoda odbić None"
+S1-L1;Środowisko 1;Lumen;Lumen;"Lumen Global Illumination + Lumen Reflections; Directional Light i Sky Light = Movable"
+S2-N0-W0;Środowisko 2;Nanite / WPO;"Nanite OFF; WPO OFF";"r.Nanite=0; Evaluate World Position Offset = OFF dla foliage"
+S2-N1-W0;Środowisko 2;Nanite / WPO;"Nanite ON; WPO OFF";"r.Nanite=1; Evaluate World Position Offset = OFF dla foliage"
+S2-N0-WH;Środowisko 2;Nanite / WPO;"Nanite OFF; WPO HIGH";"r.Nanite=0; Evaluate World Position Offset = ON; intensywny wariant wiatru"
+S2-N1-WH;Środowisko 2;Nanite / WPO;"Nanite ON; WPO HIGH";"r.Nanite=1; Evaluate World Position Offset = ON; intensywny wariant wiatru"
+S3-N0;Środowisko 3;Nanite;Nanite OFF — niestabilny;"r.Nanite.ProxyRenderMode=0; r.Nanite=0; brak pełnej serii z powodu powtarzalnej awarii"
+S3-N1;Środowisko 3;Nanite;Nanite ON;"r.Nanite=1; stabilny wariant pomiarowy"

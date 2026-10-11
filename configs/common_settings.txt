@@ -1,0 +1,28 @@
+# Wspólna konfiguracja testowa
+
+Silnik: Unreal Engine 5.5.4
+RHI: DirectX 12
+Antyaliasing / temporal upscaling: Temporal Super Resolution (TSR)
+Profil jakości: Epic
+Rozdzielczość: 1280 x 720
+Tryb: Windowed
+
+r.ScreenPercentage = 100
+r.DynamicRes.OperationMode = 0
+r.VSync = 0
+t.MaxFPS = 500
+r.Streaming.PoolSize = 2000
+
+Smooth Frame Rate = OFF
+Use Fixed Frame Rate = OFF
+
+Stanowisko sprzętowe użyte w pracy:
+CPU: AMD Ryzen 5 8645HS
+GPU: AMD Radeon 760M (zintegrowany)
+RAM: 16 GB LPDDR5, 6400 MT/s
+System: Windows 11 25H2, build 26200.8973
+Sterownik GPU: 32.0.21028.21
+
+Uwaga:
+Wyniki bezwzględne są zależne od sprzętu. Celem odtworzenia jest przede wszystkim zachowanie
+tej samej procedury i porównanie wariantów w obrębie jednego środowiska.
